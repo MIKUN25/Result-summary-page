@@ -5,50 +5,61 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <title>Project-1</title>
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Results summary component</title>
 </head>
 <body>
 
-  <main class="container">
-
+  <div class="container">
+  
     <section class="result">
-
+  
       <h1>Your Result</h1>
-
+  
       <div class="final-score">
         <span class="score">76</span> <span class="total-1">of 100</span>
       </div>
-
+  
       <h2>Great</h2>
-
+  
       <p>You scored higher than 65% of the people who have taken these tests.</p>
-      
-    </section> 
-
-    <section class="result-breakdown">
-
-      <h3>Summary</h3>
-
-      <div class="reaction-div">
+  
+    </section>
+  
+    <section class="result-breakdown" >
+  
+      <h3 style="margin-bottom: 2rem; font-weight: bold;">Summary</h3>
+  
+      <div class="reaction-div div-1" style="display: flex; ">
+        <img src="assets/images/icon-reaction.svg" alt="">
         <div class="reaction">Reaction <span class="score-1">80 / <span class="total">100</span></span></div>
       </div>
-
-      <div class="memory-div">        
-        <div class="memory">Memory <span class="score-2">80 / <span class="total">100</span></span></div>
+  
+      <div class="memory-div div-1" style="display: flex;">
+        <img src="assets/images/icon-memory.svg" alt="">
+        <div class="memory">Memory <span class="score-2">92 / <span class="total">100</span></span></div>
       </div>
-
-      <div class="verbal-div">        
-        <div class="verbal">Verbal <span class="score-3">80 / <span class="total">100</span></span></div>
+  
+      <div class="verbal-div div-1" style="display: flex;">
+        <img src="assets/images/icon-verbal.svg" alt="">
+        <div class="verbal">Verbal <span class="score-3">61 / <span class="total">100</span></span></div>
       </div>
-
-      <div class="visual-div">        
-        <div class="visual">Visual <span class="score-4">80 / <span class="total">100</span></span></div>
+  
+      <div class="visual-div div-1" style="display: flex;">
+        <img src="assets/images/icon-visual.svg" alt="">
+        <div class="visual">Visual <span class="score-4">72 / <span class="total">100</span></span></div>
       </div>
-
+  
       <button>Continue</button>
     </section>
+  
+  </div>
 
-  </main>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Ayo</a>.
+  </div>
 
 </body>
 </html>
